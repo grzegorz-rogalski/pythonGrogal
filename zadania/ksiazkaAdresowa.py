@@ -34,15 +34,15 @@ class Ksiazka:
                 if a1 == "imie":
                     x.imie = a2
                 elif a1 == "nazwisko":
-                    x.imie = a2
+                    x.nazwisko = a2
                 elif a1 == "nrTel":
-                    x.imie = a2
+                    x.nrTel = a2
                 elif a1 == "adres":
-                    x.imie = a2
+                    x.adres = a2
                 elif a1 == "kraj":
-                    x.imie = a2
+                    x.kraj = a2
                 elif a1 == "pesel":
-                    x.imie = a2
+                    x.pesel = a2
                 break
 
     def modyfikujCalyRekord(self, p, r):
