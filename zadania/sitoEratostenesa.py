@@ -12,8 +12,9 @@ class Sito:
             i = i+1
         k = []
         for x in l:
-            if x != 0:
+            if x != 0 and l.index(x) != 0 and l.index(x) != 1:
                 k.append(l.index(x))
+
         self.lista = k
 
     def wyswietl(self):
@@ -23,7 +24,7 @@ class Sito:
 def fun():
     a = Sito()
     while 1:
-        b = raw_input("Podaj zakres, aby zakończyć wpisz: koniec\n")
+        b = raw_input("Podaj zakres, aby zakonczyc wpisz: koniec\n")
         if (b > 0) and (b.isdigit()):
             a.sitko(int(b))
             a.wyswietl()
